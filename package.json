@@ -1,6 +1,6 @@
 {
-  "name": "pipe.ts",
-  "version": "0.1.0",
+  "name": "@bennyhoward/pipe.ts",
+  "version": "0.1.1",
   "description": "A function composition utility with extra features written in TypeScript",
   "main": "./dist/pipe.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "typescript"
   ],
   "author": "Benny Howard",
-  "license": "SEE LICENSE IN ./LICENSE",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BennyHoward/pipe.ts/issues"
   },
