@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "lib": ["DOM", "ES2015", "ES2018.Promise"],
+    "importHelpers": false,
+    "target": "ES5",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "typeRoots": [
+      "node_modules/@types/"
+    ]
+  },
+  "include": ["pipe.ts"],
+  "files": ["pipe.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}

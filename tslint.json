@@ -1,0 +1,33 @@
+{
+  "extends": ["tslint:latest"],
+  "rules": {
+    "jsx-wrap-multiline": false
+    , "no-console": true
+    , "quotemark": [true, "single"]
+    , "no-implicit-dependencies": false
+    , "ordered-imports": false
+    , "max-line-length": false
+    , "member-access": false
+    , "only-arrow-functions": false
+    , "interface-name": false
+    , "member-ordering": false
+    , "no-empty-interface": false
+    , "jsx-no-multiline-js": false
+    , "object-literal-sort-keys": false
+    , "interface-over-type-literal": false
+    , "jsx-no-string-ref": false
+    , "jsx-no-lambda": true
+    , "trailing-comma": [
+        true, {
+          "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
+        "singleline": "never"
+      }
+    ]
+    , "no-submodule-imports": false
+  }
+}
